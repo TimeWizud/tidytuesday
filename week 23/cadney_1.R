@@ -16,9 +16,6 @@ start <- "#FF00F4"
 end <- "yellow"
 labels <- "#B161FF"
 
-# Font
-ft <- "NimbusMon"
-
 # Paired T-Test (does the average viewer return for the reunion?)
 ttest <- t.test(data$viewers_mean, 
                 data$viewers_reunion, 
